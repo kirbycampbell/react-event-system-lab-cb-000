@@ -3,16 +3,13 @@
 import React from 'react';
 
 class Keypad extends React.Component {
-  constructor(){
-    super()
-    this.state = {
 
-    }
+  something = () => {
+    console.log('something');
   }
-
   render () {
     return (
-      <input type="password" />
+      <input type="password" onkeyUp={this.} />
     )
   }
 }
